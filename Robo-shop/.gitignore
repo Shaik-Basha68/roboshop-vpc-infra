@@ -1,0 +1,45 @@
+#ignore coping the files
+# Ignore all .tfstate files
+*.tfstate   
+# Ignore all .tfstate.backup files
+*.tfstate.backup
+# Ignore crash log files
+crash.log
+# Ignore override files
+*.override.tf
+# Ignore override files with .backup extension
+*.override.tf.backup
+# Ignore CLI configuration files
+.terraformrc    
+terraform.rc
+# Ignore .terraform directory
+.terraform/
+# Ignore any files named .DS_Store
+.DS_Store  
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (sensitive data and not meant for version control)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Terraform variable files (often contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Terraform plan files
+*.tfplan
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration files
+.terraformrc
+terraform.rc 
